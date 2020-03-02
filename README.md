@@ -1,5 +1,5 @@
 # WordUnscrambler
----Thats app was written for practice---
+Thats app was written for practice
 A simple console application: Word Unscrambler
 
 There is some words in Debug/wordlist.txt (rome, more, there, pass, cat, find, can, test, lux, word, hey, always, ordinary)
