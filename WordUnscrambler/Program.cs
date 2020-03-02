@@ -54,6 +54,7 @@ namespace WordUnscrambler
         {
             try
             {
+                Console.WriteLine(Constants.EnterScrambledWordsViaFile);
                 string fileName = Console.ReadLine() ?? string.Empty;
                 string[] scrambledWords = _fileReader.Read(fileName);
                 DisplayMatchedUnscrambledWords(scrambledWords);
