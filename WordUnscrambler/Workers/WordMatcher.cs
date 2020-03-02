@@ -30,7 +30,7 @@ namespace WordUnscrambler.Workers
                         string sortedWord = new string(wordArray);
 
                         if (sortedScrambleWord.Equals(sortedWord, StringComparison.OrdinalIgnoreCase))
-                            matchedWords.Add(new MatchedWord { ScrambleWord = sortedScrambleWord, Word = sortedWord });
+                            matchedWords.Add(new MatchedWord { ScrambleWord = scrambledWord, Word = word });
                     }
                 }
             }
