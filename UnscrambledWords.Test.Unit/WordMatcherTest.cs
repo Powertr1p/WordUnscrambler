@@ -20,7 +20,7 @@ namespace WordUnscrambler.Test.Unit
 
             Assert.IsTrue(matchedWords.Count == 1);
             Assert.IsTrue(matchedWords[0].ScrambleWord.Equals("rciah"));
-            Assert.IsTrue(matchedWords[0].Word.Equals("chair"));
+            Assert.IsTrue(matchedWords[0].Word.Equals("chair")); 
         }
 
         [TestMethod]
