@@ -12,8 +12,8 @@ namespace WordUnscrambler
         public const string OptionOnContinuingTheProgram = "Would you like to continue? Y/N";
         
         public const string EnterScrambledWordsViaFile = "Enter full path including the file name: ";
-        public const string EnterScrambledWordsManually = "Enter ward(s) manually (separated by commas if multiple)";
-        public const string EnterScrambledWordsOptionNotRecognized = "The option was not reckognized";
+        public const string EnterScrambledWordsManually = "Enter word(s) manually (separated by commas if multiple without spaces)";
+        public const string EnterScrambledWordsOptionNotRecognized = "The option was not recognized";
        
         public const string ErrorScrambledWordsCannotBeLoadded = "Scrambled words were not loaded because there was an error: ";
         public const string ErrorProgramWillBeTerminated = "The program will be terminated";

@@ -23,7 +23,6 @@ namespace WordUnscrambler
                     {
                         case Constants.File:
                             LoadWordsFromFile();
-                            Console.Write(Constants.EnterScrambledWordsViaFile);
                             break;
                         case Constants.Manual:
                             StartGetWordsFromUser();
@@ -44,7 +43,7 @@ namespace WordUnscrambler
 
                 } while (continueWordUnscrambler);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(Constants.ErrorProgramWillBeTerminated + ex.Message);
             }
@@ -54,7 +53,7 @@ namespace WordUnscrambler
         {
             try
             {
-                Console.WriteLine(Constants.EnterScrambledWordsViaFile);
+                Console.Write(Constants.EnterScrambledWordsViaFile);
                 string fileName = Console.ReadLine() ?? string.Empty;
                 string[] scrambledWords = _fileReader.Read(fileName);
                 DisplayMatchedUnscrambledWords(scrambledWords);
